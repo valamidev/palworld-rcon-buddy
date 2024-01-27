@@ -1,0 +1,15 @@
+version: "3"
+services:
+  palworld-rcon-buddy:
+    build: .
+    environment:
+      PALWORLD_SERVER_IP_ADDRESS: "127.0.0.1"
+      PALWORLD_RCON_PORT: "25575"
+      PALWORLD_RCON_PASSWORD: ""
+      INFO_CACHE_DURATION_MS: 5000 # By Default /info end-point is cached for 5 seconds
+      BEARER_TOKEN: "YOUR_TOKEN"
+      PORT: 3000 # RCON-BUDDY port
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "3000:3000"

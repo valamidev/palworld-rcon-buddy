@@ -1,0 +1,31 @@
+{
+  "name": "palworld-rcon-buddy",
+  "version": "1.0.0",
+  "description": "Secure API wrapper for Palworld RCON protocol",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "docker": "docker build -t palworld-rcon-buddy ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valamidev/palworld-rcon-buddy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valamidev/palworld-rcon-buddy/issues"
+  },
+  "homepage": "https://github.com/valamidev/palworld-rcon-buddy#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "typescript": "^5.3.3"
+  }
+}
