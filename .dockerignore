@@ -1,0 +1,7 @@
+./dist
+node_modules
+.env
+config.json
+nodeStore.sqlite
+./blockStore
+./benchmark
