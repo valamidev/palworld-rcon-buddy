@@ -1,6 +1,6 @@
 # Palworld Rcon Buddy
 
-Secure API wrapper for Palworld RCON, run this parallel to your Palworld server to give a secure HTTP/JSON interface for managing your server.
+Secure HTTP API for Palworld Server RCON, run this parallel to your Palworld server to give a secure HTTP/JSON interface for managing your server.
 
 It does support Bearer token authentication for extra security and public endpoint.
 
